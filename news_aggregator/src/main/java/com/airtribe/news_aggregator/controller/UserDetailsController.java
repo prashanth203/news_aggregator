@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("hello_world")
-public class HelloWorldController {
+public class UserDetailsController {
 
     @Autowired
     private AuthService authService;
