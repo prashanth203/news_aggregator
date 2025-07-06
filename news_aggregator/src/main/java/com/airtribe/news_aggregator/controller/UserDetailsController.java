@@ -23,8 +23,4 @@ public class UserDetailsController {
         return "Prashanth";
     }
 
-    @PostMapping("/register")
-    public AuthUser register(@RequestBody AuthUserModel user) {
-        return authService.register(user);
-    }
 }
